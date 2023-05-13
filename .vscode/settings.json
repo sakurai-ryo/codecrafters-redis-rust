@@ -1,0 +1,17 @@
+{
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "editor.formatOnSave": true,
+    "rust-analyzer.checkOnSave": true,
+    "rust-analyzer.check.command": "clippy",
+    // "rust-analyzer.check.extraArgs": ["--", "-A", "clippy::needless_return"]
+    "remote.SSH.defaultExtensions": [
+        "editorconfig.editorconfig",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "bungcip.better-toml",
+        "serayuzgur.crates"
+    ]
+}
